@@ -11,7 +11,7 @@
 <div class="container py-5">
 
     <div class="d-flex justify-content-between align-items-center mb-4">
-        <h1 class="fw-bold">Lists of Products</h1>
+        <h1 class="fw-bold">Lists of Productss</h1>
         <a href="{{ route('products.create') }}" class="btn btn-primary btn-lg">
             + Add New Product
         </a>
