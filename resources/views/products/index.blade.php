@@ -11,7 +11,13 @@
 <div class="container py-5">
 
     <div class="d-flex justify-content-between align-items-center mb-4">
-        <h1 class="fw-bold">Lists of Productss</h1>
+        <h1 class="fw-bold">Lists of Products</h1>
+
+        <!-- ✅ Add Live Date -->
+        <h5 class="text-muted">
+            Today: {{ now()->format('d M Y, l') }}
+        </h5>
+
         <a href="{{ route('products.create') }}" class="btn btn-primary btn-lg">
             + Add New Product
         </a>
@@ -21,7 +27,9 @@
         <div class="card-body p-0">
 
             <table class="table table-hover mb-0">
+                <!-- Optional welcome section -->
                 <h1>WELCOME TO THE PRODUCT SECTIONS</h1>
+
                 <thead class="table-dark">
                     <tr>
                         <th>ID</th>
@@ -40,11 +48,13 @@
 
                         <td class="text-center">
 
+                            <!-- Edit Button -->
                             <a href="{{ route('products.edit', $product->id) }}"
                                class="btn btn-warning btn-sm me-2">
                                 Edit
                             </a>
 
+                            <!-- Delete Form -->
                             <form action="{{ route('products.destroy', $product->id) }}"
                                   method="POST"
                                   style="display:inline-block;">
