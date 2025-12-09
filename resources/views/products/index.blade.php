@@ -11,7 +11,7 @@
 <div class="container py-5">
 
     <div class="d-flex justify-content-between align-items-center mb-4">
-        <h1 class="fw-bold">Product List</h1>
+        <h1 class="fw-bold">Lists of Products</h1>
         <a href="{{ route('products.create') }}" class="btn btn-primary btn-lg">
             + Add New Product
         </a>
@@ -21,7 +21,7 @@
         <div class="card-body p-0">
 
             <table class="table table-hover mb-0">
-                <h1>WELCOME TO THE PRODUCT SECTION</h1>
+                <h1>WELCOME TO THE PRODUCT SECTIONS</h1>
                 <thead class="table-dark">
                     <tr>
                         <th>ID</th>
