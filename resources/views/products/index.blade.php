@@ -21,7 +21,7 @@
         <div class="card-body p-0">
 
             <table class="table table-hover mb-0">
-                <h1>hello</h1>
+                <h1>WELCOME TO THE PRODUCT SECTION</h1>
                 <thead class="table-dark">
                     <tr>
                         <th>ID</th>
